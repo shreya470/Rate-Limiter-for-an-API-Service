@@ -1,0 +1,22 @@
+{
+    "rate_limits": {
+      "free": {
+        "per_minute": 10,
+        "per_hour": 20
+      },
+      "standard": {
+        "per_minute": 50,
+        "per_hour": 500
+      },
+      "premium": {
+        "per_minute": 200,
+        "per_hour": 2000
+      }
+    },
+    "user_tiers": {
+      "auth_key_free": "free",
+      "auth_key_standard": "standard",
+      "auth_key_premium": "premium"
+    }
+  }
+  
