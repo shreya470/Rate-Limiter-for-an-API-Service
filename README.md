@@ -1,6 +1,5 @@
 # Rate Limiter for an API Service
-
-This is a Flask-based API service that allows users to submit social media posts and retrieve analytics. The API includes a rate-limiting feature to manage requests based on user tiers.
+This document outlines the rate-limiting strategy implemented in our Flask API, detailing how to configure the system, integrate the rate limiter with the API, and run the service.
 
 ## Table of Contents
 - [Rate Limiter for an API Service](#rate-limiter-for-an-api-service)
@@ -31,7 +30,7 @@ When a user exceeds their limit, the API responds with a `429 Too Many Requests`
 
 ## Configuration
 
-To configure the API, you need a `config.json` file with the following structure:
+To configure the rate limiter, you need a `config.json` file with the following structure:
 
 ```json
 {
@@ -191,5 +190,5 @@ In the conclusion section, summarize the key points of your API and its function
 This Social Media Analytics API provides a robust solution for tracking and analyzing social media posts while ensuring fair usage through an effective rate-limiting strategy. With support for different user tiers and flexible data submission and retrieval capabilities, the API is designed to facilitate insightful analytics for users.
 
 ## Documentation**
-  Pfb the link to the documentation here
+  PFB the link to the documentation 
   https://docs.google.com/document/d/1sozsoiYAAApWfHJP0eEg18IAuXXB9irGY0zKCBaEpnA/edit?addon_store&tab=t.0
