@@ -13,6 +13,7 @@ This is a Flask-based API service that allows users to submit social media posts
   - [Testing the API](#testing-the-api)
   - [Test Cases](#test-cases)
   - [Conclusion](#conclusion)
+  - [Documentation\*\*](#documentation)
 
 ## Overview
 
@@ -184,8 +185,11 @@ end_time: "2024-10-27T23:59:59"
 }
 ```
 
-  ## Conclusion
+## Conclusion
 In the conclusion section, summarize the key points of your API and its functionality:
 
 This Social Media Analytics API provides a robust solution for tracking and analyzing social media posts while ensuring fair usage through an effective rate-limiting strategy. With support for different user tiers and flexible data submission and retrieval capabilities, the API is designed to facilitate insightful analytics for users.
 
+## Documentation**
+  Pfb the link to the documentation here
+  https://docs.google.com/document/d/1sozsoiYAAApWfHJP0eEg18IAuXXB9irGY0zKCBaEpnA/edit?addon_store&tab=t.0
